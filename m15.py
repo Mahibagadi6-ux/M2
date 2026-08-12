@@ -15,3 +15,5 @@ mathrix = [
           [233,45,56]
           ]
 print(mathrix[0])
+print(mathrix[1][2])
+print(mathrix[2])
