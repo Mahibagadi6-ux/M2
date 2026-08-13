@@ -17,6 +17,9 @@ if age>=18:
         print("you cannot drive")
 else:
     print("you cannot drive too young ")
+
+
+
 score = int(input("Enetr the score : "))
 attendence = int(input("Enetr the attendence : "))
 assigment_sub = True
