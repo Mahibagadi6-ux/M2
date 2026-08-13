@@ -31,6 +31,7 @@ for city in cities:
 cities = ["bengaluru", "dhavangere", "chittardurga", "chikkaballapur"]
 for city in cities:
     if city == "chittardurga":
+        print(city,"i not found")
         continue
     print(city)
 
