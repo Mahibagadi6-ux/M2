@@ -1,4 +1,4 @@
-"""fruits = {
+fruits = {
     "apple" : 1,
     "banana" : 2,
     "mango" : 3,
@@ -91,7 +91,7 @@ while i > 0:
 
 
 else:
-    print(" happy new year ")"""
+    print(" happy new year ")
 
 
 for i in range(1,10):
