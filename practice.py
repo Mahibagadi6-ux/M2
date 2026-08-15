@@ -21,22 +21,25 @@ while num <= 10:
         i = i + 1
     num = num + 1
 
-num = 0
+num = 1
 while num <= 10:
     if num==5:
         break
     print(num)
-    num = num + 1
+    num = num +1
 
 num = 0
 while num <= 10:
+
     num = num + 1
     if num==5:
         continue
     print(num)
 
 
-i = 0
+
+
+i = 1
 while i <= 10:
     j = 0
     while j <= i:
@@ -111,4 +114,5 @@ while i <= 100:
         print(j, end=" ")
     i = i+1
 
-
+i = input ( "enetr the string : ")
+print(len(i.replace(" ","" )))
