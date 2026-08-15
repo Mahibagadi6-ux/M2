@@ -51,3 +51,5 @@ elif time == 20:
     print("it`s dinner time")
 else:
     print("working time")
+
+
