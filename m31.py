@@ -21,3 +21,8 @@ def max_num(a,b,c):
         return "none"
 
 print(max_num(90,50,20))
+
+
+square = lambda x: x**2
+print("square",square(10))
+print("square",square(20))
