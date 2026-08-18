@@ -1,5 +1,5 @@
 # even or odd
-"""num = int(input())
+num = int(input())
 print("even" if num %2 == 0 else "odd")
 
 # reverse string
@@ -28,7 +28,7 @@ else:
 
 #list compransion challenge generate the  sqauar using for loop
 x = [x**2 for x in range(1,101)]
-print(x)"""
+print(x)
 
 # checking arm strong nume armstrong number
 """for digit in num_str: Loops through each character (digit) in 
