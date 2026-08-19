@@ -11,9 +11,12 @@ class bankAccount:
             self.bankbalance -= amount
     def get_balance(self):
         return self.bankbalance
-account1 = bankAccount(200000)
-account2 = bankAccount(5000)
-print(account1.get_balance() - account2.get_balance())
+account1 = bankAccount(5000)
+account1.deposit(100)
+account1.withdraw(200)
+print(account1.get_balance())
+
+
 
 
 
