@@ -40,3 +40,6 @@ dev.dispaly()
 dev.code()
 mana.manage()
 
+
+# litrally super() is built in funtion used to inheritance to access the methods and constructers of the parent class
+
