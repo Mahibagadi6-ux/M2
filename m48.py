@@ -42,6 +42,31 @@ for vehical in vehicals:
 
 # ANOTHER EXAMPLE FOR POLYMORPHISM
 
+class calculater:
+    def add(self,*numbers):
+        return sum(numbers)
+c = calculater()
+print(c.add(1,2,3,4))
+print(c.add(1,2,3,4,5))
+
+
+class circle:
+    def area(self):
+        print("circle area",end = "")
+class rectangle:
+    def area(self):
+        print("rectangle perimeter",end = "")
+class square:
+    def area(self):
+        print("square area", end = "")
+area1 = [circle(),rectangle(),square()]
+for shapes  in area1:
+    print(shapes .area())
+
+
+
+
+
 
 
 
