@@ -3,7 +3,7 @@ class Animal:
         print("animal is eating ")
 class dog(Animal):
         def bark(self):
-            print("bark is eating ")
+            print("bark")
 Dog = dog()
 Dog.eat()
 Dog.bark()

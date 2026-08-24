@@ -40,7 +40,7 @@ vehicals  = [car(),bike(),elecricvehical()]
 for vehical in vehicals:
     vehical.start()
 
-# ANOTHER EXAMPLE FOR POLYMORPHISM
+# ER EXAMPLE FOR POLYMORPHISM
 
 class calculater:
     def add(self,*numbers):

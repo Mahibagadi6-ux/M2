@@ -15,6 +15,7 @@ class manager(employee):
 dev = developer("mahesh",50000)
 mana = manager("rahul",5000)
 dev.dispaly()
+mana.dispaly()
 dev.code()
 mana.manage()
 
