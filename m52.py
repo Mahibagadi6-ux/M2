@@ -26,7 +26,6 @@ while True:
     elif choice == 5:
         print("result", "quite")
         break
-
     else:
         print("invalid choice ,try again")
 
