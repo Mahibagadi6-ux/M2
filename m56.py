@@ -47,10 +47,27 @@ class reportcard:
 
         print("===== passed  or not ======")
         student.is_passed()
+class classroom(student):
+    def __init__(self,grade,section):
+        self.grade = grade
+        self.section = section
+        self.students = []
+    def add_student(self,student):
+        self.students.append(student)
+    def calculate_avgmarks(self):
+        pass
+    def get_students_list(self):
+        for student in self.students:
+            print(f"{student.roll},{student.name}")
 
 a  = student(name="mahesh",roll=90)
 b = student(name="vishwa",roll=80)
 a.addmarks("match",100)
 a.addmarks("science",90)
-report = reportcard(a)
+c = classroom(grade=10,section="A")
+c.add_student(student=a)
+c.calculate_avgmarks()
+c.calculate_avgmarks()
+c.get_students_list()
+
 
