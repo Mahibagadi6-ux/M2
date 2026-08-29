@@ -27,7 +27,7 @@ class shoppingcart:
             del self.cart[item.name]
             print(f"removed all {item.name} from your cart")
     def calculate_total(self):
-        return sum(details["price"]* details["quantity"] for details in self.cart.values())
+        return sum(details["price"] * details["quantity"] for details in self.cart.values())
     def view_cart(self):
         if not self:
             print("\n your cart is completaly empty")
@@ -62,10 +62,10 @@ class Grocerystore:
             print("  2. remove item  ")
             print("  3. view item and total  ")
             print("  4. exite  ")
-            choice  = input("Enter your choice: ").strip()
+            choice  = input("Enter your choice: ")
             if choice == "1":
                 self.display_inventory()
-                item_choice = input("Enter your choice: ")
+                item_choice = input("Enter your choice: ").strip()
                 if item_choice.lower() == "b":
                     continue
                 if item_choice in self.inventory:
