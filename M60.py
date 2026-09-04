@@ -13,7 +13,6 @@ class ATM:
     def display(self):
         print(self.bank_balance)
 atm = ATM("mahesh",10000)
-print(atm.holder_name)
 atm.deposite(100)
 atm.display()
 atm.withdraw(1000)
