@@ -1,16 +1,3 @@
-class User:
-    def __init__(self,username,password):
-        self.username = username
-        self.password = password
-    def login(self):
-        print(f"{self.username} logged in")
-class admin(User):
-    def delate_user(self):
-        print(f"{self.username} deleted")
-abd = admin("abd","234567")
-abd.login()
-abd.delate_user()
-
 
 class family:
     def __init__(self,surname):
