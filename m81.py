@@ -43,8 +43,17 @@ cart = cart()
 cart.add_product(p1)
 cart.add_product(p2)
 cart.add_product(p3)
+
+print("------ cart --------")
 cart.show_cart()
-cart.total_price()
+
+
+print("------- your removed item is -------")
 cart.remove_product(p1)
+
+print("------ your discounted price is --------")
 cart.discount_price(10)
+
+print("------cart total prices-------")
+cart.total_price()
 print(cart.total_price())
