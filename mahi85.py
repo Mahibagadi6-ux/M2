@@ -13,5 +13,4 @@ while True:
 
     img = qr.make_image(fill_color="black", back_color="white")
     img.save("custom_qrcode.png")
-
     print("Custom QR Code saved as custom_qrcode.png")
