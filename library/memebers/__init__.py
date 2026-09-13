@@ -1,0 +1,1 @@
+mem = ["mahesh","vidya","jassu","vishwa","malappa","mava"]
