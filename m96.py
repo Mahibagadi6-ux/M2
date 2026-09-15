@@ -62,7 +62,7 @@ mul(5,6)
 #logging
 def logger(func):
     def wrapper(a,b):
-        print(f"Funtion as beeeb calling '{func.__name__}' has been called .")
+        print(f"Funtion as  '{func.__name__}' been called .")
         func(a,b)
     return wrapper
 @logger
